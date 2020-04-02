@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'STALKER1';
+    src:url('STALKER1.ttf.woff') format('woff'),
+        url('STALKER1.ttf.svg#STALKER1') format('svg'),
+        url('STALKER1.ttf.eot'),
+        url('STALKER1.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.heading-prime{
+
+   
+
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+   margin-bottom: 60px;
+   
+   
+        &--main{
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 25px;
+
+        animation-name: moveLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
+        @include respond(phone){
+            letter-spacing: 1rem;
+            font-size: 4rem;
+        }
+
+
+    }   
+
+
+        &--sub{
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 22px;
+        animation: moveRight 1s ease-out;
+        margin-left: 20px;
+
+        @include respond(phone){
+            letter-spacing: 1rem;
+            font-size: 0.4rem;
+        }
+    }
+
+
+}
+.version{
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.aboute{
+    &__title{
+        // background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgba(9,121,41,1) 13%, rgba(0,212,255,1) 100%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // color: transparent;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 4rem;
+        text-align: center;
+         margin-left: 2rem;
+            // color: #00803E;
+
+        animation: Titlu 1s ;
+        
+        &--t{
+            background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgba(9,121,41,1) 13%, rgba(0,212,255,1) 100%);
+             background-clip: text;
+             -webkit-background-clip: text;
+             color: transparent;
+             transform: rotate(355deg);
+            display: inline-block;
+        }
+
+        &--t:hover{
+            //transform: rotate(2deg);
+             transform: skewY(-7deg);
+            // transform: skewX(-5deg);
+
+             cursor: context-menu ;
+        }
+       
+
+    }
+
+ 
+    
+}
+// ==================Aboute==========
+.text{
+    &__paragraph{
+        padding: 2rem;
+        margin-right: 5rem;
+        font-size: 1.2rem;
+        // font-family: 'STALKER1'
+        
+        &--1{
+            color: rgb(49, 48, 48);
+        }
+    }
+}
+// ====================================
+
+.section-project{
+
+   
+    &__title{
+       
+        // background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgba(9,121,41,1) 13%, rgba(0,212,255,1) 100%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // color: transparent;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 4rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-bottom: -12rem; 
+        margin-top: 5rem;         
+        &--t{
+            background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgba(9,121,41,1) 13%, rgba(0,212,255,1) 100%);
+             background-clip: text;
+             -webkit-background-clip: text;
+             color: transparent;
+             transform: rotate(355deg);
+            display: inline-block;
+        }
+
+        &--t:hover{
+            //transform: rotate(2deg);
+             transform: skewY(-7deg);
+            // transform: skewX(-5deg);
+
+             cursor: context-menu ;
+        }
+       
+
+    }
+
+}
+.section-stories{
+    &__title{
+       
+        transform: translateY(-10rem);
+        padding:  8rem 4rem  0rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 3rem;
+        text-align: center;
+        // margin-left: 2rem;
+        // margin-bottom: -10rem; 
+        //  margin-top: 10rem;         
+        &--t{
+            background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgba(9,121,41,1) 13%, rgba(0,212,255,1) 100%);
+             background-clip: text;
+             -webkit-background-clip: text;
+             color: transparent;
+            //  transform: rotate(355deg);
+            display: inline-block;
+        }
+
+        &--t:hover{
+            //transform: rotate(2deg);
+             transform: skewY(-7deg);
+            // transform: skewX(-5deg);
+
+             cursor: context-menu ;
+        }
+       
+
+    }
+
+    
+    &--more{
+        text-decoration: none;
+        background-image: linear-gradient(90deg, rgba(30,101,4,1) 0%, rgb(3, 61, 17) 13%, rgb(9, 110, 128) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    &--more:hover{
+        transform: translateY(-.5rem);
+    }
+}
+
+
+.section-contact{
+    &__title{
+       
+        transform: translateY(-5rem);
+        padding:  0rem 4rem 0rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+        font-size: 3rem;
+        text-align: center;
+        color: #00803E;
+   
+       
+
+    }
+    &__title:hover{
+        cursor: context-menu ;
+    }
+
+
+}
+
+
+

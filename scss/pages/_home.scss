@@ -1,0 +1,124 @@
+.section-features{
+    
+    margin-top: 2rem;
+    padding: 20rem 0;
+    background-image:linear-gradient(rgba(78, 216, 78, 0.678),rgba(14, 49, 14, 0.801)), url('/img/skill3.jpg') ;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 55rem;
+    transform: skewY(-7deg);
+   
+    &__row{
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        justify-items: center;
+        // align-content: space-between;
+         justify-content: space-around;
+        //  margin-right: 4rem;
+
+    }
+
+    &>*{
+        transform: skewY(7deg);
+    }
+} 
+
+// ==========================
+.section-project__row{
+ 
+         padding: 25rem 0 50rem 0;
+       
+        display: grid;
+        grid-template-columns: 33% 33% 33% ;
+        //  justify-items: center;
+        
+         justify-content: space-around;
+         margin-left: 8rem;
+
+  
+    
+}
+
+// ================================
+
+.section-stories{
+    padding: 7rem 0;
+    // background-color: rgba(39, 114, 39, 0.322);
+    // backface-visibility: hidden;
+   position: relative;
+//    background-color: rgba(51, 142, 51, 0.473);
+     &__row{
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    //    justify-content: space-around;
+       grid-template-columns: 100%;
+         row-gap: 2rem;
+
+     }
+
+  
+    
+
+
+}
+// ======================================
+.section-contact{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 100%;
+    padding: 15rem 0;
+    // background-image: linear-gradient(to right bottom, rgba(223, 227, 230, 0.075), rgba(119, 125, 129, 0.096));
+     
+}
+.contact{
+    
+    height: 45rem;
+    width: 80%;
+    background-image:linear-gradient(105deg, rgba(255, 255, 255, 0.671) 0%, rgba(255, 255, 255, 0.575)50%, transparent 50%),url(/img/contact-me2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-size: 100%;
+
+    border-radius: 3px;
+    
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.267);
+    display: grid;
+    justify-items:start ;
+    justify-content: space-around;
+    grid-template-columns:100% ;
+    // grid-template-rows:70% ;
+    padding: 3rem;
+    
+    .form{
+       
+        // padding: 10rem;
+        // width: 80%;
+        // transform: translate(-15rem, 15rem);
+        margin-top:6rem;
+        // margin-left:-10rem;
+     
+
+        &-group{
+            width: 25rem;
+            margin-bottom: 1rem;
+        }
+    
+    }
+
+}
+
+.popup,
+.popup-2,
+.popup-3{
+background-image:linear-gradient(105deg, rgba(255, 255, 255, 0.671) 0%, rgba(255, 255, 255, 0.575)50%, transparent 50%);
+   
+    &__content{
+        
+      
+       
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.267);
+      
+    }
+    
+}

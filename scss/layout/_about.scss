@@ -1,0 +1,14 @@
+.row{
+    display:grid;
+    margin: 7rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 30% auto;
+    height: 30px;
+    padding: 2rem;
+}
+.about{
+    font-size: 1.8rem;
+    height: 70rem;
+    // background-color: red;
+}
+
